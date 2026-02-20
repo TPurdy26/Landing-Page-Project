@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto"; 
+}
+
+.first-section {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+}
+
+.top-banner {
+    display: flex;
+    align-items: center;
+    padding: 5px 25px 20px 25px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-logo {
+    display: flex;
+    color: white;
+    flex: 1;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+}

@@ -80,6 +80,7 @@ button {
     font-weight: bold;
     height: 32px;
     width: 100px;
+    border: none;
 }
 
 .container-two {
@@ -145,4 +146,36 @@ button {
     font-size: 28px;
     font-weight: bold;
     padding: 20px;
+}
+
+#container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 150px;
+}
+
+#popup {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 120px;
+    gap: 132px;
+    border-radius: 10px;
+}
+#popup-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#popup-title {
+    font-size: 20px;
+}
+
+.signup-button {
+    border: 2px solid white;
+}
+
+#popup-paragraph {
+    color: rgba(255, 255, 255, 0.759)
 }

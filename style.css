@@ -27,8 +27,6 @@ a {
     color: white;
     font-size: 48px;
     font-weight: 900;
-    margin: 0;
-    padding: 0;
 }
 
 #main-description {
@@ -47,7 +45,6 @@ a {
 .links {
     display: flex;
     justify-content: end;
-    flex: 1;
     gap: 20px;
 }
 
@@ -92,9 +89,8 @@ button {
     background-color: white;
     padding: 40px 300px 100px;
     gap: 40px;
-    border: 2px dashed red;
-
 }
+
 .random-info {
     display: flex;
     justify-content: center;
@@ -126,4 +122,27 @@ button {
     text-align: center;
     width: 160px;
     font-size: 18px;
+}
+
+#container-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 300px 80px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: rgb(84, 83, 83);
+}
+
+#author {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
 }

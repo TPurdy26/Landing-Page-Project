@@ -109,6 +109,7 @@ button {
 .blurb-container {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
 }
 
 .blank-photo {
